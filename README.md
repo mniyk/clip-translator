@@ -8,7 +8,7 @@ Windows clipboard daemon that auto-translates EN⇄JA via remote Ollama and show
 - LLM (Ollama) による言語自動判定 + 英⇄日翻訳
 - OS ネイティブ通知で結果表示 (アクションセンターに残る)
 - システムトレイ常駐 + 右クリックメニュー (Pause / Resume / Quit)
-- グローバルホットキー `Ctrl+Alt+T` で Pause/Resume トグル
+- グローバルホットキー `Ctrl+Alt+P` で Pause/Resume トグル
 
 ## Requirements
 
@@ -40,7 +40,7 @@ clip-translator.exe --endpoint http://192.168.0.50:11434 --model gpt-oss:20b
 
 - **テキストをコピー** → 数秒で翻訳結果が通知に出る
 - **トレイアイコン右クリック** → Pause / Resume / Quit
-- **`Ctrl+Alt+T`** → Pause/Resume トグル
+- **`Ctrl+Alt+P`** → Pause/Resume トグル
 
 ### 自動起動
 

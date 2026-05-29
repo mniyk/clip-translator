@@ -34,4 +34,4 @@ pub const NOTIFICATION_TITLE: &str = "Clip Translator";
 pub const NOTIFICATION_TIMEOUT_MS: u32 = 5000;
 
 /// Pause/Resume をトグルするホットキー。
-pub const TOGGLE_PAUSE_HOTKEY: &str = "Ctrl+Alt+T";
+pub const TOGGLE_PAUSE_HOTKEY: &str = "Ctrl+Alt+P";
